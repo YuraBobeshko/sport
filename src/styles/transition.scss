@@ -1,11 +1,11 @@
 $time-transform: 1s linear;
 
 .person:hover {
+    transition: transform $time-transform;
     background-color: #EEEEEE;
     border-radius: 12px;
     transform: scale(1.35);
     z-index: 1;
-    transition: transform $time-transform;
 
         .extra {
             opacity: 1;
