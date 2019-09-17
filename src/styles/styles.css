@@ -12,11 +12,11 @@ body {
 }
 .person:hover .extra {
   opacity: 1;
-  transition: 1s linear;
+  transition: opacity 1s linear;
 }
 .person:hover .photo img {
   border-radius: 60px;
-  transition: 1s linear;
+  transition: border-radius 1s linear;
 }
 
 .person:not(:hover) {

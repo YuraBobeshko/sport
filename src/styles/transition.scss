@@ -9,12 +9,12 @@ $time-transform: 1s linear;
 
         .extra {
             opacity: 1;
-            transition: $time-transform;
+            transition: opacity $time-transform;
         }
 
         .photo img {
             border-radius: 60px;
-            transition: $time-transform;
+            transition: border-radius $time-transform;
         }
 }
 
