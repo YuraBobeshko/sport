@@ -9,7 +9,7 @@ $time-transform: 1s linear;
 
         .extra {
             opacity: 1;
-            transition: opacity $time-transform;
+            transition: $time-transform;
         }
 
         .photo img {
