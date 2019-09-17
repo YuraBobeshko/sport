@@ -6,13 +6,13 @@ body {
 .person:hover {
   background-color: #EEEEEE;
   border-radius: 12px;
-  transform: scale(1.33);
+  transform: scale(1.35);
   z-index: 1;
-  transition: 1s linear;
+  transition: transform 1s linear;
 }
 .person:hover .extra {
   opacity: 1;
-  transition: 1s linear;
+  transition: transform 1s linear;
 }
 .person:hover .photo img {
   border-radius: 60px;
