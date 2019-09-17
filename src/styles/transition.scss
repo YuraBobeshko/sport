@@ -1,16 +1,27 @@
-.person:hover {
-    background-color: #2F4F4F;
-    background: #EEEEEE;
-    border-radius: 12px;
-    transition: 1s linear;
-    transform: scale(1.35);
-    z-index: 1;
+$time-transform: 1s linear;
 
-    .extra {
-        opacity: 1;
-        transition: 1s linear;
-    }
+.person:hover {
+    background-color: #EEEEEE;
+    border-radius: 12px;
+    transform: scale(1.33);
+    z-index: 1;
+    transition: $time-transform;
+
+        .extra {
+            opacity: 1;
+            transition: $time-transform;
+        }
+
+        .photo img {
+            border-radius: 60px;
+            transition: $time-transform;
+        }
 }
+
 .person:not(:hover) {
-    transition: 1s linear;
+    transition: transform $time-transform;
+
+    .photo img {
+        transition: border-radius $time-transform;
+    }
 }
