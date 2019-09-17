@@ -11,8 +11,8 @@ body {
   z-index: 1;
 }
 .person:hover .extra {
+  transition: opacity 1s linear;
   opacity: 1;
-  transition: transform 1s linear;
 }
 .person:hover .photo img {
   border-radius: 60px;

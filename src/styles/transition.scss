@@ -8,8 +8,8 @@ $time-transform: 1s linear;
     z-index: 1;
 
         .extra {
+            transition: opacity $time-transform;
             opacity: 1;
-            transition: transform $time-transform;
         }
 
         .photo img {
