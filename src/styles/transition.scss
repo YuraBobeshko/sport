@@ -1,0 +1,16 @@
+.person:hover {
+    background-color: #2F4F4F;
+    background: #EEEEEE;
+    border-radius: 12px;
+    transition: 1s linear;
+    transform: scale(1.35);
+    z-index: 1;
+
+    .extra {
+        opacity: 1;
+        transition: 1s linear;
+    }
+}
+.person:not(:hover) {
+    transition: 1s linear;
+}
